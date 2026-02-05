@@ -1,0 +1,1 @@
+class="w-full  top-0 left-0 z-50 overflow-hidden" style="position: sticky;"
