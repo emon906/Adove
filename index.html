@@ -34,59 +34,57 @@
 </head>
 <body>
   <!-- navbar header -->
-   <header class="w-full bg-white  top-0 left-0 z-50 overflow-hidden" style="position: sticky;">
+   <header class="w-full top-0 left-0 z-[999] overflow-hidden" style="position: sticky;">
      <!-- navbar -->
-<div class="navbar mt-3 mb-3 xl:px-16 lg:px-6 md:px-6 px-2">
-  <div class="navbar-start">
-    <div class="dropdown">
-      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden" id="menu-btn">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
+<div class="navbar fixed bg-white mb-3 xl:px-16 lg:px-6 md:px-6 px-2">
+ <div class="navbar-start">
+
+    <!-- MOBILE MENU -->
+    <div class="dropdown lg:hidden">
+      <div tabindex="0" class="btn btn-ghost text-xl">
+        ☰
       </div>
-      <ul
-        tabindex="0"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+
+      <ul tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box mt-3 w-52 shadow z-[1]">
+
         <li><a href="#HOME" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
    HOME
   </a></li>
-          <li><a href="#SHOPS" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
+       <li><a href="#SHOPS" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
     SHOPS
   </a></li>
-          <li><a href="#PRODUCTS" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
+         <li><a href="#PRODUCTS" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
    PRODUCTS
   </a></li>
-          <li><a href="#BLOG" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
+         <li><a href="#BLOG" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
     BLOG
   </a></li>
-          <li><a href="#PAGES" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
+         <li><a href="#PAGES" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
    PAGES
   </a></li>
       </ul>
     </div>
-    <ul class="menu menu-horizontal px-1 hidden lg:flex">
-       <li><a href="#HOME" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
+
+    <!-- DESKTOP MENU -->
+    <div class="hidden lg:flex gap-6 font-medium">
+     <a href="#HOME" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
    HOME
-  </a></li>
-          <li><a href="#SHOPS" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
+  </a>
+      <a href="#SHOPS" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
     SHOPS
-  </a></li>
-          <li><a href="#PRODUCTS" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
+  </a>
+     <a href="#PRODUCTS" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
    PRODUCTS
-  </a></li>
-          <li><a href="#BLOG" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
+  </a>
+      <a href="#BLOG" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
     BLOG
-  </a></li>
-          <li><a href="#PAGES" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
+  </a>
+      <a href="#PAGES" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
    PAGES
-  </a></li>
-    </ul>
+  </a>
+    </div>
+
   </div>
   <div class="navbar-center">
     <a href="index.html" class="">

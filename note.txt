@@ -1,1 +1,49 @@
 class="w-full  top-0 left-0 z-50 overflow-hidden" style="position: sticky;"
+
+<div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden" id="menu-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        <li><a href="#HOME" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
+   HOME
+  </a></li>
+          <li><a href="#SHOPS" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
+    SHOPS
+  </a></li>
+          <li><a href="#PRODUCTS" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
+   PRODUCTS
+  </a></li>
+          <li><a href="#BLOG" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
+    BLOG
+  </a></li>
+          <li><a href="#PAGES" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
+   PAGES
+  </a></li>
+      </ul>
+    </div>
+    <ul class="menu menu-horizontal px-1 hidden lg:flex">
+       <li><a href="#HOME" class="relative font-Jost text=[#000000] text-[13px] font-semibold group">
+   HOME
+  </a></li>
+          
+         
+         
+         
+    </ul>
+  </div>
+
+
+
+
+  
